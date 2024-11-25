@@ -1,0 +1,542 @@
+/*media queries start*/
+@media screen and (max-width: 1200px) {
+  .site-banner {
+    height: 500px;
+}
+.banner-content {
+  padding-bottom: 100px;
+}
+  .banner-content p {
+    font-size: 20px;
+  }
+  .primary-btn {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+  .section-title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+  .image-section {
+    padding: 60px 0;
+  }
+  .tech-card-section {
+    padding: 60px 0;
+  }
+  .faq {
+    padding: 60px 0;
+  }
+  .blog-main,
+  .blog-details-section,
+  .contact,.exhibit-house-sec {
+    padding: 100px 0;
+  }
+
+  .acc {
+    padding: 16px 0;
+  }
+  .acc-head {
+    padding: 12px 10px;
+  }
+  .acc-head h4 {
+    font-size: 22px;
+  }
+  .acc-content p {
+    font-size: 16px;
+  }
+  .acc-head::before {
+    right: 28px;
+    height: 16px;
+    margin-top: -9px;
+  }
+  .acc-head::after {
+    width: 16px;
+  }
+  .testimonial-section {
+    padding: 60px 0;
+  }
+  .for-you-section {
+    padding: 100px 0;
+  }
+  .hover-content h4 {
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .for-you-card {
+    padding: 32px;
+  }
+  .for-you-card h3 {
+    font-size: 24px;
+    margin: 8px 0;
+  }
+  .hover-content p {
+    font-size: 16px;
+  }
+  .organization-section {
+    padding: 60px 0 100px;
+  }
+  .image-section p {
+    font-size: 20px;
+  }
+  .about-us-sec {
+    padding: 100px 0 0;
+  }
+  .our-vision {
+    padding: 70px 0 100px;
+  }
+  .about-us-content h5 {
+    font-size: 28px;
+    max-width: 100%;
+  }
+  .site-nav li a {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  .our-vision .section-title {
+    font-size: 32px;
+  }
+  .follow-us a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .site-banner {
+    height: 450px;
+}
+.banner-content {
+  padding-bottom: 80px;
+}
+  .banner-content p {
+    font-size: 18px;
+  }
+  .image-section {
+    padding: 50px 0;
+  }
+  .tech-card-section {
+    padding: 50px 0;
+  }
+  .tech-card-section .row {
+    justify-content: center;
+  }
+  .faq {
+    padding: 50px 0;
+  }
+  .acc {
+    padding: 12px 0;
+  }
+  .acc-head h4 {
+    font-size: 20px;
+  }
+  .testimonial-section {
+    padding: 50px 0;
+  }
+  .blog-main,
+  .blog-details-section,
+  .contact,.exhibit-house-sec {
+    padding: 80px 0;
+  }
+  .testimonial-content h3 {
+    font-size: 22px;
+  }
+  .testimonial-content p {
+    font-size: 18px;
+  }
+  .for-you-section {
+    padding: 80px 0;
+  }
+  .organization-section {
+    padding: 50px 0 80px;
+  }
+  .banner-content h1 {
+    font-size: 48px;
+  }
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 28px;
+  }
+  .site-header {
+    backdrop-filter: none;
+    transform: translateY(-100%);
+  }
+  .our-vision .section-title {
+    font-size: 28px;
+  }
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: #000;
+    transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+    transform: translateX(-100%);
+    display: none;
+  }
+
+  .headar-top {
+    transform: translateY(0);
+  }
+  .site-nav ul {
+    display: block;
+    padding: 30px 60px 0;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .closed-menu {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    display: inline-block;
+  }
+
+  .toggle .site-nav {
+    transform: translateX(0);
+  }
+  .for-you-card {
+    padding: 28px;
+  }
+  .for-you-card .icon {
+    font-size: 40px;
+  }
+  .tech-img {
+    padding-bottom: 40px;
+  }
+  .tech-card h3 {
+    font-size: 24px;
+  }
+  .about-us-sec {
+    padding: 80px 0 0;
+  }
+  .vision-img {
+    padding: 16px;
+  }
+  .about-us-content h5 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .about-us-content p {
+    font-size: 16px;
+  }
+  .vision-content p {
+    margin-bottom: 10px;
+  }
+  .our-vision {
+    padding: 60px 0 80px;
+  }
+  .service-card h4 {
+    font-size: 23px;
+    }
+  .contact-page .newsletter h4 {
+    font-size: 28px;
+  }
+  .contact-page .newsletter .follow-us h4 {
+    font-size: 16px;
+  }
+  .form-group textarea{
+    height: 100px;
+  }
+  /*footer start*/
+  .footer-logo img {
+    max-width: 180px;
+  }
+  .site-logo img {
+    max-width: 180px;
+  }
+  .social-icons {
+    text-align: center;
+  }
+
+  .social-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-icons p {
+    color: #fff;
+    margin: 1.5rem 0;
+    font-size: 1.4rem;
+  }
+
+  .useful-links {
+    text-align: center;
+    /* margin: 2rem; */
+  }
+
+  .our_service {
+    text-align: center;
+  }
+
+  .contact-us {
+    text-align: start;
+  }
+
+  .social-icons a:last-child {
+    display: inline-block;
+    background: #7f8c8d;
+    margin-right: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/* 768 media query */
+@media (max-width: 768px) {
+  .site-banner {
+    height: 400px;
+}
+.banner-content {
+  padding-bottom: 60px;
+}
+  .banner-content p {
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .image-section {
+    padding: 40px 0;
+  }
+  .tech-card-section {
+    padding: 40px 0;
+  }
+  .for-you-card h3 {
+    font-size: 20px;
+    margin: 6px 0;
+  }
+  .for-you-card p {
+    font-size: 16px;
+  }
+  .faq {
+    padding: 40px 0;
+  }
+  .acc {
+    padding: 10px 0;
+  }
+  .testimonial-section {
+    padding: 40px 0;
+  }
+  .testimonial-content h3 {
+    font-size: 20px;
+  }
+  .for-you-section {
+    padding: 50px 0;
+  }
+  .acc {
+    padding: 8px 0;
+  }
+  .acc-head {
+    padding: 10px 8px;
+  }
+  .image-section-part-3 .row .primary-btn {
+    margin-bottom: 1rem;
+  }
+  .organization-section {
+    padding: 40px 0 60px;
+  }
+  .blog-main,
+  .blog-details-section,
+  .contact,.exhibit-house-sec {
+    padding: 50px 0;
+  }
+  .image-section p {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .testimonial-content p {
+    font-size: 16px;
+  }
+  .tech-card h3 {
+    font-size: 20px;
+  }
+  .tech-img {
+    padding-bottom: 32px;
+  }
+  .contact-us {
+    text-align: start;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+  }
+  .faq .row .faq-content {
+    margin-bottom: 16px;
+  }
+  .acc-head h4 {
+    font-size: 18px;
+  }
+  .for-you-section .row {
+    margin-bottom: 16px;
+    gap: 1rem;
+  }
+  .for-you-section .for-you-card {
+    margin-bottom: 16px;
+  }
+  .about-us-sec {
+    padding: 50px 0 0;
+  }
+  .our-vision .section-title {
+    margin-block: 12px;
+  }
+  .vision-content p {
+    margin-bottom: 8px;
+  }
+  .about-img {
+    margin-right: 0;
+  }
+  .vision-img {
+    padding: 0 4px;
+  }
+  .our-vision {
+    padding: 50px 0 50px;
+  }
+  .about-us-content {
+    padding: 40px 24px;
+    margin-top: 32px;
+  }
+  .service-cards-grid {
+    padding-top: 100px;
+  }
+  .service {
+    padding: 80px 0 40px 0;
+}
+.exhibit-house-sec .for-you-inner-wrap
+.content{
+  margin-left: 0;
+  margin-top: 16px;
+}  .for-you-card {
+    padding: 20px;
+  }
+  .contact-page .newsletter h4 {
+    font-size: 24px;
+  }
+  .contact-page .newsletter p {
+    font-size: 16px;
+  }
+  .form-group textarea{
+    height: 80px;
+  }
+  .map {
+    padding: 32px 0;
+}
+  .follow-us a {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .site-banner {
+    height: 350px;
+}
+.banner-content {
+  padding-bottom: 40px;
+}
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .image-section {
+    padding: 28px 0;
+  }
+  .tech-card-section {
+    padding: 28px 0;
+  }
+
+  .faq {
+    padding: 28px 0;
+  }
+  .testimonial-section {
+    padding: 28px 0;
+  }
+  .for-you-section {
+    padding: 40px 0;
+  }
+  .organization-section {
+    padding: 30px 0 40px;
+  }
+  .blog-main,
+  .blog-details-section,
+  .contact,.exhibit-house-sec {
+    padding: 40px 0;
+  }
+  .image-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .for-you-card .icon {
+    font-size: 32px;
+  }
+  .useful-links {
+    text-align: start;
+  }
+  .banner-content h1 {
+    font-size: 32px;
+  }
+  .follow-us a {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+  }
+  .about-us-sec {
+    padding: 40px 0 0;
+  }
+  .our-vision {
+    padding: 40px 0 40px;
+  }
+  .vision-content p {
+    margin-bottom: 6px;
+  }
+  .about-us-content {
+    margin-top: 20px;
+  }
+  .innovative {
+    padding: 40px 0 80px;
+  }
+  .service-card h4 {
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .service-card {
+    width: 100%;
+    min-height: 230px;
+  }
+  .service-cards-grid {
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-form form {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    grid-gap: 16px;
+  }
+  .form-group textarea{
+    height: 70px;
+  }
+  .map {
+    padding: 24px 0;
+}
+  .footer-logo p {
+    margin-bottom: 16px;
+  }
+}
