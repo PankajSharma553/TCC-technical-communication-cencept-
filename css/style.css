@@ -331,6 +331,7 @@ li.menu-item-has-children a {
     background-color: black;
     padding-block: 16px;
 }
+
 .copyright p{
 font-size: 16px;
 text-align: center;
@@ -338,10 +339,12 @@ padding-inline: 4px;
 margin-bottom: 0;
 color: white;
 }
+.useful-links li  {
+padding-bottom: 1rem;
+}
 .useful-links li a {
     color: #fff;
     text-transform: capitalize;
-    padding-bottom: 1rem;
     display: inline-block;
 }
 
